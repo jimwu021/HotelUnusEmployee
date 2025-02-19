@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_delivery"
+    app:startDestination="@id/ongoingFragment">
+
+    <fragment
+        android:id="@+id/ongoingFragment"
+        android:name="android.com.hotelunusemployee2.delivery.OngoingFragment"
+        android:label="fragment_delivery_ongoing"
+        tools:layout="@layout/fragment_delivery_ongoing" >
+        <action
+            android:id="@+id/action_ongoingFragment_to_ongoingDetailFragment"
+            app:destination="@id/ongoingDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ongoingDetailFragment"
+        android:name="android.com.hotelunusemployee2.delivery.OngoingDetailFragment"
+        android:label="fragment_delivery_ongoing_detail"
+        tools:layout="@layout/fragment_delivery_ongoing_detail" />
+</navigation>

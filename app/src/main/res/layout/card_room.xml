@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    app:cardBackgroundColor="@color/colorCard"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    android:layout_margin="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical">
+    <!-- app:cardCornerRadius：設定卡片圓角的大小
+         app:cardElevation：設置卡片陰影的大小 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_gravity="center_vertical"
+        tools:context=".room.RoomActivity">
+
+        <TextView
+            android:id="@+id/tvRoomNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="101"
+            android:textSize="36sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/tvRoomStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="12dp"
+            android:text="Leaving"
+            android:textSize="30sp"
+            android:textAlignment="textEnd"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

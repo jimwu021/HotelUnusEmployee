@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF5EE</color>
+    <color name="colorPrimaryDark">#B3ABA6</color>
+    <color name="colorPrimaryDarker">#9F9A96</color>
+    <color name="colorAccent">#EF8600</color>
+    <color name="colorError">#ff6666</color>
+    <color name="colorOK">#3CB371</color>
+    <color name="colorCard">#ffffff</color>
+    <color name="colorCardGrey">#DCDCDC</color>
+    <color name="colorBottom">#fffff8</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorClassicBlue">#0E487B</color>
+    <color name="colorProvenceBlue">#6086BC</color>
+    <color name="colorLightBlue">#177AD1</color>
+    <color name="colorDeepBlue">#06223B</color>
+
+</resources>
+<!--B00020-->

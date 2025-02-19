@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Hotel Unus | Employee</string>
+
+    <string name="hint_Emp_id">Employee ID</string>
+    <string name="hint_etPassword">Password</string>
+
+    <string name="msg_NoNetwork">No network connection available</string>
+    <string name="msg_InvalidEmpId">Invalid employee ID</string>
+    <string name="msg_InvalidPassword">Invalid password</string>
+    <string name="msg_InvalidEmpIdOrPassword">Invalid employee ID or password</string>
+    <string name="msg_AlertLogout">Are you sure you want to log out?</string>
+    <string name="msg_RoomsNotFound">Rooms not found</string>
+    <string name="msg_OrderNotFound">Orders not found</string>
+    <string name="msg_OrderDetailNotFound">Order details not found</string>
+
+
+    <string name="text_tvTitle">HOTEL UNUS</string>
+    <string name="text_tvTitle2">for Employees</string>
+    <string name="text_btnLogin">LOG IN</string>
+    <string name="text_btnLogout">LOG OUT</string>
+    <string name="text_btnCancel">CANCEL</string>
+    <string name="text_cleaned">Cleaned</string>
+    <string name="text_uncleaned">Uncleaned</string>
+    <string name="text_OutOfOrder">Out of order</string>
+    <string name="text_done">Done</string>
+    <string name="text_tabItemDone">Done</string>
+    <string name="text_tabItemOngoing">Ongoing</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_delivery">Hotel Unus | Delivery</string>
+    <string name="title_activity_room">Hotel Unus | Housekeeping</string>
+    <string name="room_uncleaned_fragment">uncleaned fragment</string>
+    <string name="room_done_fragment">done fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

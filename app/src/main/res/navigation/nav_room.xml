@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_room"
+    app:startDestination="@id/roomUncleanedFragment">
+
+    <fragment
+        android:id="@+id/roomUncleanedFragment"
+        android:name="android.com.hotelunusemployee2.room.RoomUncleanedFragment"
+        android:label="fragment_uncleaned"
+        tools:layout="@layout/fragment_room_uncleaned" >
+        <action
+            android:id="@+id/action_roomUncleanedFragment_to_roomUncleanedDetailFragment"
+            app:destination="@id/roomUncleanedDetailFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/roomDoneFragment"
+        android:name="android.com.hotelunusemployee2.room.RoomDoneFragment"
+        android:label="fragment_done"
+        tools:layout="@layout/fragment_room_done" />
+    <fragment
+        android:id="@+id/roomUncleanedDetailFragment"
+        android:name="android.com.hotelunusemployee2.room.RoomUncleanedDetailFragment"
+        android:label="RoomUncleanedDetailFragment" />
+</navigation>
